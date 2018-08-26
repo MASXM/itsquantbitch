@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gbk"?>
+<Brokers>
+	<Broker BrokerID="9999" BrokerName="上期技术" Type="Ctp">
+		<Server Name="电信线路" Type="0">
+			<TradeLine Address = "tcp://180.168.146.187:10000" />
+			<TradeLine Address = "tcp://180.168.146.187:10001" />
+			<MarketLine Address = "tcp://180.168.146.187:10010" />
+			<MarketLine Address = "tcp://180.168.146.187:10011" />
+		</Server>
+		<Server Name="移动线路" Type="2">
+			<TradeLine Address = "tcp://218.202.237.33:10002" />
+			<MarketLine Address = "tcp://218.202.237.33:10012" />
+		</Server>			
+	</Broker>
+	<Broker BrokerID="9999" BrokerName="上期技术7*24" Type="Ctp">
+		<Server Name="电信线路" Type="0">
+			<TradeLine Address = "tcp://180.168.146.187:10030" />
+			<MarketLine Address = "tcp://180.168.146.187:10031" />
+		</Server>			
+	</Broker>
+</Brokers>
+
